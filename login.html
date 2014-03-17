@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Gaby - Login Plataforma</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div id="contenedor_login">
+		<div id="login_academia">
+			<h2>ACADEMIA</h2>
+			<input class="login_input" type="text" placeholder="Nombre de usuario" />
+			<input class="login_input" type="password" placeholder="Contraseña">
+			<input class="singin_input"  type="text" placeholder="Nombre de usuario" />
+			<input class="singin_input"  type="password" placeholder="Contraseña">
+			<input class="singin_input"  type="password" placeholder="Confirmar Contraseña">
+			<input class="singin_input"  type="password" placeholder="Clave de acceso">
+			<button class="login login_button">Entrar</button>
+			<button class="singin singin_button">Registrarme</button>
+		</div>
+		<div id="login_maestro">
+			<h2>PROFESOR</h2>
+			<input  class="login_input" type="text" placeholder="Correo" />
+			<input  class="login_input" type="password" placeholder="Contraseña">
+			<input class="singin_input"  type="text" placeholder="Correo" />
+			<input class="singin_input"  type="password" placeholder="Contraseña">
+			<input class="singin_input"  type="password" placeholder="Confirmar Contraseña">
+			<input class="singin_input"  type="password" placeholder="Clave de academia">
+			<button class="login login_button">Entrar</button>
+			<button class="singin singin_button">Registrarme</button>
+		</div>
+		<div id="login_alumno">
+			<h2>ALUMNO</h2>
+			<p id="loginFace" >Entrar con Facebook</p>
+			<p id="loginTwitter">Entrar con Twitter</p>
+			<p class="singin_input" >Registrarme con Facebook</p>
+			<p class="singin_input" >Registrarme con Twitter</p>
+			<button id='registrarAlumno' class="singin singin_button" onclick="cambiarSocial">Registrarme</button>
+		</div>
+	</div>
+	<footer>
+		<p>Powered by
+			<a href="#">
+				<img src="img/logo-simple.png">
+			</a>
+		</p>
+	</footer>
+</body>
+</html>
