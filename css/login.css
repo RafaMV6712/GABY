@@ -192,5 +192,10 @@ input
 .login_input
 {
 	padding: .8em .3em;
-	margin-bottom: 3em; 
+	margin-bottom: 3em;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
 }
