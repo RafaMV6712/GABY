@@ -9,16 +9,27 @@
 	font-style: normal;
 }
 
-
-body
+#Contenido
 {
-	font-family: 'Open Sans', 'icomoon',sans-serif;
-	font-size: 18px;
-	background-color: #CEE3F6;
-	margin-top: 0;
+	background-color: white;
+	border-top: solid #86DCDC 7px;
+	color: black;
+	height: 700px;
+	/*margin-top: 8em;*/
+	padding: 0;
+	position: absolute;
+	margin: 4em auto;
+	right: 0;
+	left: 0;
+	width: 650px;
+	box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-mox-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-ms-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-o-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
 }
 
-button
+#Contenido button
 {
 	background: #474747;
 	border: none;
@@ -38,13 +49,13 @@ button
 	-o-transition: .4s;
 }
 
-button:hover
+#Contenido button:hover
 {
 	background: #C1C1C1;
 	border-radius: 2px;
 	color: #474747;
 }
-button:active
+#Contenido button:active
 {
 	background: #55acee;
 	border: none;
@@ -56,36 +67,7 @@ button:active
 	top: 2px;
 }
 
-footer
-{
-	bottom: 0;
-	background: #373B3D;
-	margin-bottom: 0;
-	position: absolute;
-	width: 100%;
-	border-top: #848484 solid 5px;
-}
-footer p
-{
-	color: #CBCBCB;
-	display: block;
-	margin: .75em 0;
-	padding: 0;
-	text-align: center;
-}
-footer p a
-{
-	display: block;
-	padding: 0;
-}
-footer p a img
-{
-	margin: 0;
-	padding: 0;
-	width: 50px;
-}
-
-h2
+#Contenido h2
 {
 	font-size: 1.2em;
 	font-weight: lighter;
@@ -93,7 +75,7 @@ h2
 	padding: .6em 0 0 .7em;
 }
 
-input
+#Contenido input
 {
 	border-top: 1px solid #c0c0c0;
 	border: 1px solid #d9d9d9;
@@ -112,7 +94,7 @@ input
 	-o-transition: .4s;
 }
 
-textarea
+#Contenido textarea
 {
 	height: 50px;
 	margin: .5em 2em;
@@ -124,36 +106,19 @@ textarea
 	-o-transition: .4s;
 }
 
-textarea:focus
+#Contenido textarea:focus
 {
 	height: 80px;
 	margin-bottom: 0;
 }
 
-#Contenido
-{
-	background-color: white;
-	border-top: solid #86DCDC 7px;
-	color: black;
-	height: 750px;
-	margin: 3em auto;
-	/*margin-top: 8em;*/
-	padding: 0;
-	width: 650px;
-	box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-webkit-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-mox-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-ms-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-o-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-}
-
-#Academia
+#Contenido #Academia
 {
 	margin-left: 1em;
-	width: 51%;
+	width: 55.5%;
 }
 
-#Cancelar
+#Contenido #Cancelar
 {
 	background: #474747;
 	border: none;
@@ -161,11 +126,11 @@ textarea:focus
 	color: #EFEFEF;
 	display: inline-block;
 	font-size: 1em;
-	height: 40px;
+	height: 35px;
 	margin-left: 4.8em;
 	margin-top: 1em;
 	opacity: 0.85;
-	padding-top: 0.7em;
+	padding-top: 1em;
 	padding-bottom: 0;
 	position: absolute;
 	text-align: center;
@@ -179,13 +144,13 @@ textarea:focus
 	-o-transition: .4s;
 }
 
-#Cancelar:hover
+#Contenido #Cancelar:hover
 {
 	background: #C1C1C1;
 	border-radius: 2px;
 	color: #474747;
 }
-#Cancelar:active
+#Contenido #Cancelar:active
 {
 	background: #55acee;
 	border: none;
@@ -195,59 +160,77 @@ textarea:focus
 	outline: none;
 }
 
-#Clave_Acceso
+#Contenido #Clave_Acceso
 {
 	margin-left: 1em;
-	width: 47.5%;
+	width: 51.5%;
 }
 
-#Contrasenna
+#Contenido #Contrasenna
 {
 	margin-left: 1em;
+	width: 71.85%;
 }
 
-#Contrasenna2
+#Contenido #Contrasenna2
 {
 	margin-left: 1em;
-	width: 61.4%;
+	width: 64%;
 }
 
-.Datos
+#Contenido .Datos
 {
-	
+
 	display: inline;
 	margin-left: 2em;
 }
 
-.Datos2
+#Contenido .Datos2
 {
 	margin-top: 2em;
 	margin-left: 2em;
 }
 
-#El_porque_contenedor
+#Contenido #El_porque_contenedor
 {
 	height: 80px;
 }
 
-#Email
+#Contenido #Email
 {
 	margin-left: 3.2em;
+	margin-top: 1em;
+	width: 72%; 
 }
 
-#Pequenno
+#Contenido #Pequenno
 {
 	margin-left: 4em;
 	margin-top: 1.5em;
 	font-size: 11px;
 }
 
-#Registrarse
+#Contenido #Registrarse
 {
-	margin-left: 7.2em;
+	margin-left: 8.5em;
 }
 
-#Usuario
+#Login
 {
-	margin-left: 2em;
+	background-color: #fbfbfb;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#popup
+{
+	height: 100%;
+	width: 100%;
 }

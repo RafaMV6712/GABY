@@ -7,35 +7,59 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/Registro_Academia.css">
 	<script src="js/jquerys.js"></script>
 </head>
 <body>
-	<div id="contenedor_login">
-		<div id="login_academia">
-			<h2>ACADEMIA</h2>
-			<div id="Academia_normalizador">
-				<input class="login_input" type="text" placeholder="Nombre de usuario" />
-				<input class="login_input" type="password" placeholder="Contraseña">
+	<div id="Login">
+		<div id="contenedor_login">
+			<div id="login_academia">
+				<h2>ACADEMIA</h2>
+				<div id="Academia_normalizador">
+					<input class="login_input" type="text" placeholder="Nombre de usuario" />
+					<input class="login_input" type="password" placeholder="Contraseña">
+				</div>
+				<a href="academia.html"><button class="login login_button">Entrar</button></a>
+				<button class="singin singin_button" id="Registrarme_Academia">Registrarme</button>
 			</div>
-			<a href="academia.html"><button class="login login_button">Entrar</button></a>
-			<a href="Registro_Academia.html"><button class="singin singin_button">Registrarme</button></a>
-		</div>
-		<div id="login_maestro">
-			<h2>PROFESOR</h2>
-			<div id="Maestro_normalizador">
-				<input  class="login_input" type="text" placeholder="Correo" />
-				<input  class="login_input" type="password" placeholder="Contraseña">
+			<div id="login_maestro">
+				<h2>PROFESOR</h2>
+				<div id="Maestro_normalizador">
+					<input  class="login_input" type="text" placeholder="Correo" />
+					<input  class="login_input" type="password" placeholder="Contraseña">
+				</div>
+				<button class="login login_button">Entrar</button>
 			</div>
-			<button class="login login_button">Entrar</button>
-		</div>
-		<div id="login_alumno">
-			<h2>ALUMNO</h2>
-			<div id="div_botones">
-				<p id="loginFace" >Entrar con Facebook</p>
-				<p id="loginTwitter">Entrar con Twitter</p>
+			<div id="login_alumno">
+				<h2>ALUMNO</h2>
+				<div id="div_botones">
+					<p id="loginFace" >Entrar con Facebook</p>
+					<p id="loginTwitter">Entrar con Twitter</p>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div id="popup" style="display: none;">
+	    <div id="Contenido">
+			<h2>REGISTRO</h2>
+			<form>
+				<p class="Datos">Email: </p><input type="text" placeholder="ejemplo: ejemplo_08@dominio.com" name="Email" id="Email"/>
+				<p class="Datos">Nombre de la Academia: </p><input type="text" placeholder="ejemplo: Academia de Fisica" name="Academia" id="Academia"/>
+				<p class="Datos">Password: </p><input type="password" placeholder="ejemplo: NadieAdivina06" name="Contrasenna" id="Contrasenna"/>
+				<p class="Datos">Repita Password: </p><input type="password" placeholder="ejemplo: NadieAdivina06" name="Contrasenna2" id="Contrasenna2"/>
+				<p class="Datos">¿Por qué deseas usar Gaby?</p>
+				<div id="El_porque_contenedor">
+					<textarea id="El_porque"></textarea>
+				</div>
+				<p class="Datos2">O bien:</p>
+				<p class="Datos">Ingresa la Clave de acceso*: </p><input type="password" placeholder="" name="Clave_Acceso" id="Clave_Acceso"/>
+				<button type="submit" name="Registrarse" id="Registrarse" value="Submit">Enviar</button>
+				<a href="login.html" id="Cancelar"> Cancelar </a>
+			</form>
+			<p id="Pequenno">*Proporcionada por Dreedi</p>
+		</div>
+	</div>
+	
 	<footer>
 		<p>Powered by
 			<a href="#">
