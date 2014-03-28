@@ -2,19 +2,24 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<title>Academia de Química</title>
 
 	<!--Links a estilos-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/academia.css">
+
+	<script src="js/jquerys.js"></script>	
 	<!--Links a estilos-->
 
 </head>
 <body>
 	<header>
 		<figure>
+			<p></p>
 			<img src="img/logoGABY.png">
 		</figure>
 		<div id='fecha'>
@@ -22,23 +27,208 @@
 			<p>Viernes 21 de Marzo de 2014</p>
 			<p><strong>5:00 am</strong></p>
 		</div>
-		<div id='header_datos'>
-			<p id='flechitaDatos'>Bienvenida, <strong>Academia de Química</strong></p>
-			<p><a href="#">Cerrar sesión</a></p>
+		<div id='header_datos'>				
+			<p id="flechitaDatos">Bienvenido, <strong>Academia de Química</strong></p>
+			<p><a href="#">Cerrar Sesión</a></p>
 		</div>
 	</header>
-	<nav>
-		<ul>
-			<li><a href="#">Cuestionarios</a></li>
-			<li><a href="#">Maestros</a></li>
-			<li><a href="#">Estadísticas</a></li>
-			<li><a href="#">Alumnos</a></li>
-			<li><a href="#">Material</a></li>
-			<li><a href="#">Foro</a></li>
-		</ul>
-	</nav>
-	<div id='contenedor'>
-		
+	<div id="contenedor">
+		<nav>
+			<ul>
+				<li><a href="#">Cuestionarios</a></li>
+				<li><a href="#">Maestros</a></li>
+				<li><a href="#">Estadísticas</a></li>
+				<li><a href="#">Alumnos</a></li>
+				<li><a href="#">Material</a></li>
+				<li><a href="#">Foro</a></li>
+			</ul>
+		</nav>
+		<div id="contenido">
+			<section>
+				<h2>Cuestionarios activos</h2>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo">
+						<p>#1</p>
+						<h2>Compuestos químicos (Hidruros)</h2>
+						<p class="flechaCuestionario"></p>
+					</div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo">
+						<p>#10</p>
+						<h2>Números cuánticos</h2>
+						<p class="flechaCuestionario"></p>
+					</div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo"><p>#1</p><h2>Compuestos químicos (Hidruros)</h2><p class="flechaCuestionario"></p></div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo">
+						<p>#1</p>
+						<h2>Compuestos químicos (Hidruros)</h2>
+						<p class="flechaCuestionario"></p>
+					</div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo">
+						<p>#10</p>
+						<h2>Números cuánticos</h2>
+						<p class="flechaCuestionario"></p>
+					</div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+				<article class="cuestionario">
+					<div class="tituloCuestionarioActivo"><p>#1</p><h2>Compuestos químicos (Hidruros)</h2><p class="flechaCuestionario"></p></div>
+					<p class="numeroPreguntas"><strong>34</strong> preguntas.</p>
+					<p class="activadoPor">Activado por <strong>Blanca Rosas Landa Z.s</strong></p>
+					<p class="activadoPara">Activado para <strong>3IM9, 3IM7</strong></p>
+					<div class="horaInicio">
+						<p>Fecha de inicio:</p>
+						<p><strong>14 de Marzo de 2014</strong></p>
+						<p>Hora de inicio:</p>
+						<p><strong>9:00 am</strong></p>
+					</div>
+					<div class="horaFin">
+						<p>Fecha de vencimiento:</p>
+						<p><strong>17 de Marzo de 2014</strong></p>
+						<p>Hora de vencimiento: </p>
+						<p><strong>11:00 am</strong></p>
+					</div>
+				</article>
+			</section>
+			<section id="mejoresGrupos">
+				<h2>Mejores grupos</h2>
+				<article>
+					<h2 class="semestreMejor">3° Semestre</h2>
+					<div class="primerLugarGrupo">
+						<figure>
+							<img src="../img/medalGold.png">
+						</figure>
+						<h2>3IM9</h2>
+						<p class="promedioMejores">8.3</p>
+						<p class="profesorMejores">Profesor <strong>Blanca Rosas Landa Z.s</strong></p>
+					</div>
+					<div class="segundoLugarGrupo">
+						<figure>
+							<img src="../img/medalBronze.png">
+						</figure>
+						<h2>3IM2</h2>
+						<p class="promedioMejores">8.0</p>
+						<p class="profesorMejores">Profesor <strong>Blanca Rosas Landa Z.s</strong></p>
+					</div>
+					<div class="tercerLugarGrupo">
+						<figure>
+							<img src="../img/medalSilver.png">
+						</figure>
+						<h2>3IM6</h2>
+						<p class="promedioMejores">7.4</p>
+						<p class="profesorMejores">Profesor <strong>Blanca Rosas Landa Z.s</strong></p>
+					</div>
+				</article>
+				<article>
+					<h2 class="semestreMejor">5° Semestre</h2>
+					<div class="primerLugarGrupo">
+						<figure>
+							<img src="../img/medalGold.png">
+						</figure>
+						<h2>5IM3</h2>
+						<p class="promedioMejores">8.8</p>
+						<p class="profesorMejores">Profesor <strong>Blanca Rosas Landa Z.s</strong></p>
+					</div>
+					<div class="segundoLugarGrupo">
+						<figure>
+							<img src="../img/medalBronze.png">
+						</figure>
+						<h2>5IM4</h2>
+						<p class="promedioMejores">8.4</p>
+						<p class="profesorMejores">Profesor <strong>Blancaasdasdasdasd Rosas Landa Z.s</strong></p>
+					</div>
+					<div class="tercerLugarGrupo">
+						<figure>
+							<img src="../img/medalSilver.png">
+						</figure>
+						<h2>5IV1</h2>
+						<p class="promedioMejores">7.9</p>
+						<p class="profesorMejores">Profesor <strong>Blanca Rosas Landa Z.s</strong></p>
+					</div>
+				</article>
+			</section>
+		</div>
 	</div>
 </body>
 </html>
