@@ -9,28 +9,16 @@
 	font-style: normal;
 }
 
-#Contenido
+
+body
 {
-	background-color: white;
-	border-top: solid #86DCDC 7px;
-	color: black;
-	height: 700px;
-	/*margin-top: 8em;*/
-	padding: 0;
-	position: absolute;
-	margin: 4em auto;
-	margin-bottom: 8em;
-	right: 0;
-	left: 0;
-	width: 650px;
-	box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-webkit-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-mox-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-ms-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
-	-o-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	font-family: 'Open Sans', 'icomoon',sans-serif;
+	font-size: 18px;
+	background-color: #CEE3F6;
+	margin-top: 0;
 }
 
-#Contenido button
+button
 {
 	background: #474747;
 	border: none;
@@ -50,13 +38,13 @@
 	-o-transition: .4s;
 }
 
-#Contenido button:hover
+button:hover
 {
 	background: #C1C1C1;
 	border-radius: 2px;
 	color: #474747;
 }
-#Contenido button:active
+button:active
 {
 	background: #55acee;
 	border: none;
@@ -68,7 +56,36 @@
 	top: 2px;
 }
 
-#Contenido h2
+footer
+{
+	bottom: 0;
+	background: #373B3D;
+	margin-bottom: 0;
+	position: absolute;
+	width: 100%;
+	border-top: #848484 solid 5px;
+}
+footer p
+{
+	color: #CBCBCB;
+	display: block;
+	margin: .75em 0;
+	padding: 0;
+	text-align: center;
+}
+footer p a
+{
+	display: block;
+	padding: 0;
+}
+footer p a img
+{
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+
+h2
 {
 	font-size: 1.2em;
 	font-weight: lighter;
@@ -76,7 +93,7 @@
 	padding: .6em 0 0 .7em;
 }
 
-#Contenido input
+input
 {
 	border-top: 1px solid #c0c0c0;
 	border: 1px solid #d9d9d9;
@@ -95,7 +112,7 @@
 	-o-transition: .4s;
 }
 
-#Contenido textarea
+textarea
 {
 	height: 50px;
 	margin: .5em 2em;
@@ -107,19 +124,36 @@
 	-o-transition: .4s;
 }
 
-#Contenido textarea:focus
+textarea:focus
 {
 	height: 80px;
 	margin-bottom: 0;
 }
 
-#Contenido #Academia
+#Contenido
 {
-	margin-left: 1em;
-	width: 55.5%;
+	background-color: white;
+	border-top: solid #86DCDC 7px;
+	color: black;
+	height: 750px;
+	margin: 3em auto;
+	/*margin-top: 8em;*/
+	padding: 0;
+	width: 650px;
+	box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-mox-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-ms-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-o-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
 }
 
-#Contenido #Cancelar
+#Academia
+{
+	margin-left: 1em;
+	width: 51%;
+}
+
+#Cancelar
 {
 	background: #474747;
 	border: none;
@@ -127,11 +161,11 @@
 	color: #EFEFEF;
 	display: inline-block;
 	font-size: 1em;
-	height: 35px;
+	height: 40px;
 	margin-left: 4.8em;
 	margin-top: 1em;
 	opacity: 0.85;
-	padding-top: 1em;
+	padding-top: 0.7em;
 	padding-bottom: 0;
 	position: absolute;
 	text-align: center;
@@ -145,13 +179,13 @@
 	-o-transition: .4s;
 }
 
-#Contenido #Cancelar:hover
+#Cancelar:hover
 {
 	background: #C1C1C1;
 	border-radius: 2px;
 	color: #474747;
 }
-#Contenido #Cancelar:active
+#Cancelar:active
 {
 	background: #55acee;
 	border: none;
@@ -161,78 +195,59 @@
 	outline: none;
 }
 
-#Contenido #Clave_Acceso
+#Clave_Acceso
 {
 	margin-left: 1em;
-	width: 51.5%;
+	width: 47.5%;
 }
 
-#Contenido #Contrasenna
+#Contrasenna
 {
 	margin-left: 1em;
-	width: 71.85%;
 }
 
-#Contenido #Contrasenna2
+#Contrasenna2
 {
 	margin-left: 1em;
-	width: 64%;
+	width: 61.4%;
 }
 
-#Contenido .Datos
+.Datos
 {
-
+	
 	display: inline;
 	margin-left: 2em;
 }
 
-#Contenido .Datos2
+.Datos2
 {
 	margin-top: 2em;
 	margin-left: 2em;
 }
 
-#Contenido #El_porque_contenedor
+#El_porque_contenedor
 {
 	height: 80px;
 }
 
-#Contenido #Email
+#Email
 {
 	margin-left: 3.2em;
-	margin-top: 1em;
-	width: 72%; 
 }
 
-#Contenido #Pequenno
+#Pequenno
 {
 	margin-left: 4em;
 	margin-top: 1.5em;
 	font-size: 11px;
 }
 
-#Contenido #Registrarse
+#Registrarse
 {
-	margin-left: 8.5em;
+	margin-left: 7.2em;
 }
 
-#Login
+#Usuario
 {
-	background-color: #fbfbfb;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	margin: 0;
-	width: 100%;
-	transition: .4s;
-	-webkit-transition: .4s;
-	-moz-transition: .4s;
-	-ms-transition: .4s;
-	-o-transition: .4s;
-}
-
-#popup
-{
-	height: 100%;
-	width: 100%;
+	margin-left: 2em;
 }

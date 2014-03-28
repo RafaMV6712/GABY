@@ -11,7 +11,7 @@
 body
 {
 	font-family: 'Open Sans', 'icomoon',sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	background: black;
 	margin-top: 0;
 	/*height: 900px;
@@ -239,4 +239,234 @@ input
 {
 	padding: .8em .3em;
 	margin-bottom: 3em; 
+}
+
+/* Del PopUp */
+
+
+#Contenido
+{
+	background-color: white;
+	border-top: solid #86DCDC 7px;
+	color: black;
+	height: 700px;
+	padding: 0;
+	position: absolute;
+	margin: 4em auto;
+	margin-bottom: 8em;
+	right: 0;
+	left: 0;
+	width: 650px;
+	box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-mox-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-ms-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+	-o-box-shadow: rgba(0,0,0,.7) 5px 4px 10px -1px;
+}
+
+#Contenido button
+{
+	background: #474747;
+	border: none;
+	border-radius: 2px;
+	color: #EFEFEF;
+	display: inline-block;
+	font-size: 1em;
+	height: 50px;
+	opacity: 0.85;
+	padding: :;3em .6em;
+	margin: 1em 0 .5em 4.8em;
+	width: 150px;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#Contenido button:hover
+{
+	background: #C1C1C1;
+	border-radius: 2px;
+	color: #474747;
+}
+#Contenido button:active
+{
+	background: #55acee;
+	border: none;
+	border-radius: 2px;
+	color: #474747;
+	text-decoration: none;
+	outline: none;
+	position: relative;
+	top: 2px;
+}
+
+#Contenido h2
+{
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin-top: 0em;
+	padding: .6em 0 0 .7em;
+}
+
+#Contenido input
+{
+	border-top: 1px solid #c0c0c0;
+	border: 1px solid #d9d9d9;
+	color: #404040;
+	display: inline;
+	font-size: 15px;
+	margin: 0 auto;
+	margin-bottom: 1.5em;
+	margin-top: .5em;
+	padding: .3em .6em;
+	width: 70%;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#Contenido textarea
+{
+	height: 50px;
+	margin: .5em 2em;
+	width: 89%;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#Contenido textarea:focus
+{
+	height: 80px;
+	margin-bottom: 0;
+}
+
+#Contenido #Academia
+{
+	margin-left: 1em;
+	width: 55.5%;
+}
+
+#Contenido #Cancelar
+{
+	background: #474747;
+	border: none;
+	border-radius: 2px;
+	color: #EFEFEF;
+	display: inline-block;
+	font-size: 1em;
+	height: 35px;
+	margin-left: 4.8em;
+	margin-top: 1em;
+	opacity: 0.85;
+	padding-top: 1em;
+	padding-bottom: 0;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 150px;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#Contenido #Cancelar:hover
+{
+	background: #C1C1C1;
+	border-radius: 2px;
+	color: #474747;
+}
+#Contenido #Cancelar:active
+{
+	background: #55acee;
+	border: none;
+	border-radius: 2px;
+	color: #474747;
+	text-decoration: none;
+	outline: none;
+}
+
+#Contenido #Clave_Acceso
+{
+	margin-left: 1em;
+	width: 51.5%;
+}
+
+#Contenido #Contrasenna
+{
+	margin-left: 1em;
+	width: 71.85%;
+}
+
+#Contenido #Contrasenna2
+{
+	margin-left: 1em;
+	width: 64%;
+}
+
+#Contenido .Datos
+{
+
+	display: inline;
+	margin-left: 2em;
+}
+
+#Contenido .Datos2
+{
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+#Contenido #El_porque_contenedor
+{
+	height: 80px;
+}
+
+#Contenido #Email
+{
+	margin-left: 3.2em;
+	margin-top: 1em;
+	width: 72%; 
+}
+
+#Contenido #Pequenno
+{
+	margin-left: 4em;
+	margin-top: 1.5em;
+	font-size: 11px;
+}
+
+#Contenido #Registrarse
+{
+	margin-left: 8.5em;
+}
+
+#Login
+{
+	background-color: #fbfbfb;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+}
+
+#popup
+{
+	height: 100%;
+	width: 100%;
 }
