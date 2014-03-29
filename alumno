@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="alum no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+		<title>Alumno</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/alumno.css" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<script src="js/snap.svg-min.js"></script>
+	</head>
+	<body>
+
+		<nav id="bt-menu" class="bt-menu">
+			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				<ul>
+					<li><a href="#">Cuestionarios</a></li>
+					<li><a href="index.html">Foro</a></li>
+					<li><a href="index.html">Cerrar Sesión</a></li>
+				</ul>
+				<ul>
+					<li><a href="http://www.twitter.com" class="bt-icon icon-twitter" target="_blank">Twitter</a></li>
+					<li><a href="https://plus.google.com" class="bt-icon icon-gplus" target="_blank">Google+</a></li>
+					<li><a href="https://www.facebook.com/pages/Dreedi/595901193820932?fref=ts"  target="_blank" class="bt-icon icon-facebook">Facebook</a></li>
+					<li><a href="https://github.com" class="bt-icon icon-github" target="_blank">icon-github</a></li>
+				</ul>
+			</nav>	
+		<div class="container">
+			
+			<section id="grid" class="grid clearfix">
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#1 REDOX</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#2 BALANCEO</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#3 COMPUESTOS</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#4 ELEMENTOS</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#5 LABORATORIO</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#6 NOMENCLATURA</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#7 HIDRUROS</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<div>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>#8 METALES</h2>
+							<p>El cuestionario consta de 34 preguntas</p>
+							<button>REVISAR</button>
+						</figcaption>
+						</div>
+					</figure>
+				</a>
+			</section>
+		</div>
+		<footer>
+			<p>Powered by
+				<a href="#">
+					<img src="img/logo-simple.png">
+				</a>
+			</p>
+		</footer>
+		<script>
+			(function() {
+	
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
+		</script>
+	</body>
+	<script src="js/classie.js"></script>
+	<script src="js/borderMenu.js"></script>
+</html>
